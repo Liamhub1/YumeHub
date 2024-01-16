@@ -153,7 +153,7 @@ LoadFrame.Size = UDim2.new(0, 0, 0, 0)
 
 Barload.Name = "Barload"
 Barload.Parent = LoadFrame
-Barload.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+Barload.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 Barload.Position = UDim2.new(0.0436137058, 0, 0.776658118, 0)
 Barload.Size = UDim2.new(0, 0, 0, 2)
 Barload.BackgroundTransparency = 1
@@ -163,7 +163,7 @@ BarloadCorner.Parent = Barload
 
 LoadText.Name = "LoadText"
 LoadText.Parent = LoadFrame
-LoadText.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+LoadText.BackgroundColor3 = Color3.fromRGB(0, 255, 0)
 LoadText.BackgroundTransparency = 1.000
 LoadText.Position = UDim2.new(0.186915889, 0, 0.261682242, 0)
 LoadText.Size = UDim2.new(0, 200, 0, 50)
@@ -1484,7 +1484,7 @@ Label.Size = UDim2.new(0, 363, 0, 42)
 Label.AutoButtonColor = false
 Label.Font = Enum.Font.SourceSans
 Label.Text = ""
-Label.TextColor3 = Color3.fromRGB(128, 0, 128)
+Label.TextColor3 = Color3.fromRGB(0, 255, 0)
 Label.TextSize = 14.000
 
 LabelCorner.CornerRadius = UDim.new(0, 5)
@@ -1499,7 +1499,7 @@ LabelTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
 LabelTitle.Size = UDim2.new(0, 187, 0, 42)
 LabelTitle.Font = Enum.Font.Gotham
 LabelTitle.Text = text
-LabelTitle.TextColor3 = Color3.fromRGB(128, 0, 128)
+LabelTitle.TextColor3 = Color3.fromRGB(0, 255, 0)
 LabelTitle.TextSize = 14.000
 LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
 
