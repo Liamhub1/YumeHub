@@ -153,7 +153,7 @@ LoadFrame.Size = UDim2.new(0, 0, 0, 0)
 
 Barload.Name = "Barload"
 Barload.Parent = LoadFrame
-Barload.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+Barload.BackgroundColor3 = Color3.fromRGB(103, 162, 114)
 Barload.Position = UDim2.new(0.0436137058, 0, 0.776658118, 0)
 Barload.Size = UDim2.new(0, 0, 0, 2)
 Barload.BackgroundTransparency = 1
@@ -163,7 +163,7 @@ BarloadCorner.Parent = Barload
 
 LoadText.Name = "LoadText"
 LoadText.Parent = LoadFrame
-LoadText.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+LoadText.BackgroundColor3 = Color3.fromRGB(103, 162, 114)
 LoadText.BackgroundTransparency = 1.000
 LoadText.Position = UDim2.new(0.186915889, 0, 0.261682242, 0)
 LoadText.Size = UDim2.new(0, 200, 0, 50)
@@ -764,7 +764,7 @@ Slider.Size = UDim2.new(0, 363, 0, 60)
 Slider.AutoButtonColor = false
 Slider.Font = Enum.Font.SourceSans
 Slider.Text = ""
-Slider.TextColor3 = Color3.fromRGB(128, 0, 128)
+Slider.TextColor3 = Color3.fromRGB(103, 162, 114)
 Slider.TextSize = 14.000
 
 SliderCorner.CornerRadius = UDim.new(0, 5)
@@ -779,7 +779,7 @@ SliderTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
 SliderTitle.Size = UDim2.new(0, 187, 0, 42)
 SliderTitle.Font = Enum.Font.Gotham
 SliderTitle.Text = text
-SliderTitle.TextColor3 = Color3.fromRGB(128, 0, 128)
+SliderTitle.TextColor3 = Color3.fromRGB(103, 162, 114)
 SliderTitle.TextSize = 14.000
 SliderTitle.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -791,7 +791,7 @@ SliderValue.Position = UDim2.new(0.0358126722, 0, 0, 0)
 SliderValue.Size = UDim2.new(0, 335, 0, 42)
 SliderValue.Font = Enum.Font.Gotham
 SliderValue.Text = tostring(start and math.floor((start / max) * (max - min) + min) or 0)
-SliderValue.TextColor3 = Color3.fromRGB(128, 0, 128)
+SliderValue.TextColor3 = Color3.fromRGB(103, 162, 114)
 SliderValue.TextSize = 14.000
 SliderValue.TextXAlignment = Enum.TextXAlignment.Right
 
@@ -901,7 +901,7 @@ DropdownBtn.BackgroundTransparency = 1.000
 DropdownBtn.Size = UDim2.new(0, 363, 0, 42)
 DropdownBtn.Font = Enum.Font.SourceSans
 DropdownBtn.Text = ""
-DropdownBtn.TextColor3 = Color3.fromRGB(128, 0, 128)
+DropdownBtn.TextColor3 = Color3.fromRGB(103, 162, 114)
 DropdownBtn.TextSize = 14.000
 
 DropdownTitle.Name = "DropdownTitle"
@@ -912,13 +912,13 @@ DropdownTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
 DropdownTitle.Size = UDim2.new(0, 187, 0, 42)
 DropdownTitle.Font = Enum.Font.Gotham
 DropdownTitle.Text = text
-DropdownTitle.TextColor3 = Color3.fromRGB(128, 0, 128)
+DropdownTitle.TextColor3 = Color3.fromRGB(103, 162, 114)
 DropdownTitle.TextSize = 14.000
 DropdownTitle.TextXAlignment = Enum.TextXAlignment.Left
 
 ArrowImg.Name = "ArrowImg"
 ArrowImg.Parent = DropdownTitle
-ArrowImg.BackgroundColor3 = Color3.fromRGB(128, 0, 128)
+ArrowImg.BackgroundColor3 = Color3.fromRGB(103, 162, 114)
 ArrowImg.BackgroundTransparency = 1.000
 ArrowImg.Position = UDim2.new(1.65240645, 0, 0.190476194, 0)
 ArrowImg.Size = UDim2.new(0, 26, 0, 26)
@@ -979,7 +979,7 @@ Item.Size = UDim2.new(0, 335, 0, 25)
 Item.AutoButtonColor = false
 Item.Font = Enum.Font.Gotham
 Item.Text = v
-Item.TextColor3 = Color3.fromRGB(128, 0, 128)
+Item.TextColor3 = Color3.fromRGB(103, 162, 114)
 Item.TextSize = 15.000
 
 ItemCorner.CornerRadius = UDim.new(0, 4)
@@ -1484,7 +1484,7 @@ Label.Size = UDim2.new(0, 363, 0, 42)
 Label.AutoButtonColor = false
 Label.Font = Enum.Font.SourceSans
 Label.Text = ""
-Label.TextColor3 = Color3.fromRGB(128, 0, 128)
+Label.TextColor3 = Color3.fromRGB(103, 162, 114)
 Label.TextSize = 14.000
 
 LabelCorner.CornerRadius = UDim.new(0, 5)
@@ -1499,7 +1499,7 @@ LabelTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
 LabelTitle.Size = UDim2.new(0, 187, 0, 42)
 LabelTitle.Font = Enum.Font.Gotham
 LabelTitle.Text = text
-LabelTitle.TextColor3 = Color3.fromRGB(128, 0, 128)
+LabelTitle.TextColor3 = Color3.fromRGB(103, 162, 114)
 LabelTitle.TextSize = 14.000
 LabelTitle.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1532,7 +1532,7 @@ TextboxTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
 TextboxTitle.Size = UDim2.new(0, 187, 0, 42)
 TextboxTitle.Font = Enum.Font.Gotham
 TextboxTitle.Text = text
-TextboxTitle.TextColor3 = Color3.fromRGB(128, 0, 128)
+TextboxTitle.TextColor3 = Color3.fromRGB(103, 162, 114)
 TextboxTitle.TextSize = 14.000
 TextboxTitle.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1552,7 +1552,7 @@ TextBox.BackgroundTransparency = 1.000
 TextBox.Size = UDim2.new(0, 100, 0, 23)
 TextBox.Font = Enum.Font.Gotham
 TextBox.Text = ""
-TextBox.TextColor3 = Color3.fromRGB(128, 0, 128)
+TextBox.TextColor3 = Color3.fromRGB(103, 162, 114)
 TextBox.TextSize = 14.000
 
 TextBox.FocusLost:Connect(
@@ -1584,7 +1584,7 @@ Bind.Size = UDim2.new(0, 363, 0, 42)
 Bind.AutoButtonColor = false
 Bind.Font = Enum.Font.SourceSans
 Bind.Text = ""
-Bind.TextColor3 = Color3.fromRGB(128, 0, 128)
+Bind.TextColor3 = Color3.fromRGB(103, 162, 114)
 Bind.TextSize = 14.000
 
 BindCorner.CornerRadius = UDim.new(0, 5)
@@ -1599,7 +1599,7 @@ BindTitle.Position = UDim2.new(0.0358126722, 0, 0, 0)
 BindTitle.Size = UDim2.new(0, 187, 0, 42)
 BindTitle.Font = Enum.Font.Gotham
 BindTitle.Text = text
-BindTitle.TextColor3 = Color3.fromRGB(128, 0, 128)
+BindTitle.TextColor3 = Color3.fromRGB(103, 162, 114)
 BindTitle.TextSize = 14.000
 BindTitle.TextXAlignment = Enum.TextXAlignment.Left
 
@@ -1611,7 +1611,7 @@ BindText.Position = UDim2.new(0.0358126722, 0, 0, 0)
 BindText.Size = UDim2.new(0, 337, 0, 42)
 BindText.Font = Enum.Font.Gotham
 BindText.Text = Key
-BindText.TextColor3 = Color3.fromRGB(128, 0, 128)
+BindText.TextColor3 = Color3.fromRGB(103, 162, 114)
 BindText.TextSize = 14.000
 BindText.TextXAlignment = Enum.TextXAlignment.Right
 
