@@ -482,7 +482,7 @@ TabLayout.Padding = UDim.new(0, 6)
 if fs == false then
 fs = true
 TabBtnIndicator.Size = UDim2.new(0, 13, 0, 2)
-TabTitle.TextColor3 = Color3.fromRGB(216,191,216)
+TabTitle.TextColor3 = Color3.fromRGB(128,0,128)
 Tab.Visible = true
 end
 
@@ -500,12 +500,12 @@ TabBtnIndicator:TweenSize(UDim2.new(0, 13, 0, 2), Enum.EasingDirection.Out, Enum
 TweenService:Create(
 v.TabTitle,
 TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-{TextColor3 = Color3.fromRGB(216,191,216)}
+{TextColor3 = Color3.fromRGB(128,0,128)}
 ):Play()
 TweenService:Create(
 TabTitle,
 TweenInfo.new(.3, Enum.EasingStyle.Quad, Enum.EasingDirection.Out),
-{TextColor3 = Color3.fromRGB(216,191,216)}
+{TextColor3 = Color3.fromRGB(128,0,128)}
 ):Play()
 end
 end
