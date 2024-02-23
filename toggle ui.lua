@@ -1,5 +1,4 @@
 local ToggleUi = {}
-local Image = ToggleImageUI.Image = ""
 
 if not game:IsLoaded() then
     repeat
@@ -66,5 +65,5 @@ ToggleImageUI.Size = UDim2.new(0, 50, 0, 50)
 ToggleImageUI.Image = "rbxassetid://16144773210" --[[can change]]
 
 ToggleToggle.MouseButton1Click:Connect(function()
-    game.CoreGui:FindFirstChild("NameUi").Enabled = not game.CoreGui:FindFirstChild("NameUi").Enabled
+    game.CoreGui:FindFirstChild("YumeHub").Enabled = not game.CoreGui:FindFirstChild("YumeHub").Enabled
 end)
