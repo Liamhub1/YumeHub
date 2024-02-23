@@ -2,8 +2,8 @@
 -- YumeHub
 if game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/Speed%20of%20Legends.lua", true))()
-elseif game.PlaceId ~= 13772394625 and game.PlaceId ~= 15234596844 and game.PlaceId ~= 14732610803 and game.PlaceId ~= 13822889 and game.PlaceId ~= 142823291 and game.PlaceId ~= Place 16281300371 then
-    game.Players.LocalPlayer:Kick("Maps Not supported yet")
+elseif game.PlaceId ~= 13772394625 and game.PlaceId ~= 15234596844 and game.PlaceId ~= 14732610803 and game.PlaceId ~= 13822889 and game.PlaceId ~= 142823291 and game.PlaceId ~= 16281300371 then
+    game.Players.LocalPlayer:Kick("YumeHub Not Support Map "..tostring(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name))
 elseif game.PlaceId == 13822889 then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/Lumber%20tycoon%20Beta.lua"), true))()
 elseif game.PlaceId == 142823291 then
