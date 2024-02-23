@@ -1,4 +1,5 @@
 local ToggleUi = {}
+local Image = ToggleImageUI.Image = ""
 
 if not game:IsLoaded() then
     repeat
