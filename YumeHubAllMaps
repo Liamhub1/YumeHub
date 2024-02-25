@@ -6,8 +6,6 @@ elseif game.PlaceId ~= 13772394625 and game.PlaceId ~= 15234596844 and game.Plac
     game.Players.LocalPlayer:Kick("YumeHub Not Support Map "..tostring(game:GetService("MarketplaceService"):GetProductInfo(game.PlaceId).Name))
 elseif game.PlaceId == 13822889 then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/Lumber%20tycoon%20Beta.lua"), true))()
-elseif game.PlaceId == 142823291 then
-    loadstring(game:HttpGet(("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/Mm2%20Very%20Very%20Beta.lua"), true))()
 else
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/YumeHub.lua"), true))()
 end
