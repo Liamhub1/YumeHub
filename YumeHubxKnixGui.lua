@@ -3,7 +3,12 @@ if not game:IsLoaded() then
         task.wait()
     until game:IsLoaded()
 end
-
+if game:GetService("CoreGui"):FindFirstChild("YumeHub") then
+   game:GetService("CoreGui"):FindFirstChild("YumeHub"):Destroy()
+end
+if game:GetService("CoreGui"):FindFirstChild("ToggleScreen") then
+   game:GetService("CoreGui"):FindFirstChild("ToggleScreen"):Destroy()
+end
 local lib = {RainbowColorValue = 0, HueSelectionPosition = 0}
 local UserInputService = game:GetService("UserInputService")
 local TweenService = game:GetService("TweenService")
