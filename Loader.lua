@@ -1,4 +1,4 @@
-local configi = loadstring(game:HttpGet("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/obf_Q6SGnDAyB4LxV3992tvmQJnFp06b8bZ4LhPF1s41f6UkKA99aiDrG4HlSmfw7O1c.lua.txt", true))()
+local configi = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/obf_Q6SGnDAyB4LxV3992tvmQJnFp06b8bZ4LhPF1s41f6UkKA99aiDrG4HlSmfw7O1c.lua.txt", true))()
 
 if game.PlaceId == 3101667897 then
     loadstring(game:HttpGet("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/Speed%20of%20Legends.lua", true))()
