@@ -1,4 +1,5 @@
 local configi = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/Config.lua"), true))()
+local NextGen = loadstring(game:HttpGet(("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/Suckmyduck.lua"), true))()
 
 if game.PlaceId == 3101667897 then
     loadstring(game:HttpGet(("https://raw.githubusercontent.com/Liamhub1/YumeHub/main/Speed%20of%20Legends.lua"), true))()	
